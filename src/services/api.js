@@ -1,21 +1,29 @@
 // src/services/api.js
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
 
+// Static data import (works on GitHub Pages)
+import db from '../data/db.json';
+
+// ✅ Fetch profile
 export async function fetchProfile() {
-  const res = await fetch(`${API_BASE}/profile`);
-  if (!res.ok) throw new Error('Failed to fetch profile');
-  return res.json();
+  return Promise.resolve(db.profile);
 }
 
+// ✅ Fetch projects
 export async function fetchProjects() {
-  const res = await fetch(`${API_BASE}/projects`);
-  if (!res.ok) throw new Error('Failed to fetch projects');
-  return res.json();
+  // If projects are inside profile
+  if (db.profile?.projects) {
+    return Promise.resolve(db.profile.projects);
+  }
+
+  // If projects are top-level in db.json
+  if (db.projects) {
+    return Promise.resolve(db.projects);
+  }
+
+  return Promise.resolve([]);
 }
 
-
+// ✅ Fetch right navbar items
 export async function fetchRightNavItems() {
-  const res = await fetch(`${API_BASE}/rightNavItems`);
-  if (!res.ok) throw new Error('Failed to fetch right nav items');
-  return res.json();
+  return Promise.resolve(db.profile?.rightNavItems || []);
 }
