@@ -1,0 +1,254 @@
+{
+  "profile": {
+    "fullName": "Mohammad Farhan Taili",
+    "role": "Full Stack Developer",
+    "about": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Et, Volutpat Feugiat Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.",
+    "avatar": "/src/assets/hero.png",
+    "contact": {
+      "location": {
+        "country": "India",
+        "city": "Ahmedabad",
+        "state": "Gujarat"
+      },
+      "emails": {
+        "email": "farhantaili08@gmail.com",
+        "telegram": "@farhantaili",
+        "linkedin": "linkedin.com/in/mohammad-farhan-taili"
+      },
+      "phones": {
+        "personal": "+91 9924310984"
+      }
+    },
+    "socialLinks": [
+      { "iconClass": "fa-brands fa-linkedin-in", "url": "https://linkedin.com/in/mohammad-farhan-taili" },
+      { "iconClass": "fa-brands fa-github", "url": "https://github.com/MohammadFarhan1408" }
+    ],
+    "personalInfo": {
+      "age": "22",
+      "residence": "IN",
+      "freelance": "Available",
+      "address": "Ahmedabad, India"
+    },
+    "languages": [
+      { "label": "English", "percentage": 90 },
+      { "label": "Hindi", "percentage": 95 }
+    ],
+    "skills": [
+      { "label": "Python", "percentage": 90 },
+      { "label": "Django", "percentage": 85 },
+      { "label": "React", "percentage": 80 }
+    ],
+    "extraSkills": [
+      "React Native",
+      "MySQL & Firebase",
+      "Tailwind CSS",
+      "Git & GitHub"
+    ],
+    "rightNavItems": [
+      { "id": "home", "iconClass": "fa-solid fa-house", "tooltip": "Home" },
+      { "id": "services", "iconClass": "fa-solid fa-file-code", "tooltip": "Services" },
+      { "id": "education", "iconClass": "fa-solid fa-user-graduate", "tooltip": "Education" },
+      { "id": "portfolio", "iconClass": "fa-solid fa-briefcase", "tooltip": "Portfolio" },
+      { "id": "blog", "iconClass": "fa-solid fa-pen", "tooltip": "Blog" },
+      { "id": "contact", "iconClass": "fa-solid fa-comments", "tooltip": "Contact" }
+    ],
+    "services": [
+      {
+        "title": "Backend Development",
+        "description": "Python, Django, FastAPI, REST API development, authentication, and database integration.",
+        "iconClass": "fa-solid fa-server"
+      },
+      {
+        "title": "Full Stack Web Development",
+        "description": "End-to-end web applications using Django, React, Tailwind CSS, and MySQL.",
+        "iconClass": "fa-solid fa-code"
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Cross-platform mobile apps using React Native with Firebase and API integration.",
+        "iconClass": "fa-solid fa-mobile-screen-button"
+      },
+      {
+        "title": "AI / ML Integration",
+        "description": "Image similarity, AI-based matching systems, and ML model integration with backend APIs.",
+        "iconClass": "fa-solid fa-brain"
+      },
+      {
+        "title": "Database Design",
+        "description": "MySQL schema design, optimization, query writing, and backend data modeling.",
+        "iconClass": "fa-solid fa-database"
+      }
+    ],
+    "cvUrl": "/resume.pdf",
+    "testimonials": [
+      {
+        "title": "Great Quality Work",
+        "body": "Mohammad showed strong problem-solving skills and implemented backend APIs efficiently using Django. His understanding of REST principles and database design is solid for a junior developer.",
+        "authorName": "Project Mentor",
+        "authorRole": "Senior Software Engineer",
+        "authorImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80",
+        "rating": 5
+      },
+      {
+        "title": "Reliable and Dedicated",
+        "body": "Worked with Mohammad during his internship. He delivered features on time and was proactive in learning React and React Native while working on real-world projects.",
+        "authorName": "Team Lead",
+        "authorRole": "Tech Lead",
+        "authorImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80",
+        "rating": 5
+      },
+      {
+        "title": "Strong Learning Ability",
+        "body": "Mohammad quickly adapted to our codebase and contributed to backend and frontend tasks. His willingness to learn AI-based systems like image matching stood out.",
+        "authorName": "Internship Supervisor",
+        "authorRole": "Engineering Manager",
+        "authorImage": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&w=100&q=80",
+        "rating": 4
+      }
+    ],
+    "education": [
+      {
+        "institution": "Silver Oak University",
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "role": "Student",
+        "date": "2022 - 2025",
+        "description": "Pursuing BCA with a focus on software development, data structures, web technologies, and database systems. Worked on academic projects involving Python, Django, React, and MySQL."
+      },
+      {
+        "institution": "Internshala",
+        "degree": "Certified Android App Development Course",
+        "role": "Online Certification",
+        "date": "2021",
+        "description": "Completed a structured Android development course covering Java basics, Android UI components, activities, intents, and simple CRUD apps."
+      },
+      {
+        "institution": "IBM SkillsBuild",
+        "degree": "SQL Fundamentals Certification",
+        "role": "Online Certification",
+        "date": "2021",
+        "description": "Learned SQL fundamentals including SELECT queries, joins, aggregations, and basic database design concepts using relational databases."
+      }
+    ],
+    "workHistory": [
+      {
+        "company": "AIS Technolabs Pvt. Ltd.",
+        "position": "React Native Trainee",
+        "role": "Internship",
+        "date": "Jan 2024 - Apr 2024",
+        "description": "Worked as a React Native trainee on mobile application development. Implemented screens, navigation flows, API integrations, and basic state management while collaborating with senior developers."
+      },
+      {
+        "company": "Satva Technology Pvt. Ltd.",
+        "position": "PHP Intern",
+        "role": "Internship",
+        "date": "Jun 2023 - Sep 2023",
+        "description": "Developed and maintained PHP-based web modules, worked with MySQL databases, fixed bugs, and learned about MVC patterns and server-side development."
+      },
+      {
+        "company": "Personal / Academic Projects",
+        "position": "Full Stack Developer (Projects)",
+        "role": "Project Experience",
+        "date": "2022 - Present",
+        "description": "Built full-stack projects like a Lost & Found portal using Django, React Native, and AI-based image matching. Worked on REST APIs, authentication, and integration with Firebase and Twilio."
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "title": "LostSync - AI Powered Lost & Found Portal",
+        "category": "Full Stack",
+        "image": "https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&q=80&w=800",
+        "description": "Full stack lost & found portal using Django, React Native, and AI-based image similarity to match lost and found items with Twilio and Firebase integration.",
+        "tech": ["Django", "React Native", "TensorFlow", "MySQL", "Twilio"],
+        "liveUrl": "#",
+        "sourceUrl": "https://github.com/your-username/lostsync"
+      },
+      {
+        "id": 2,
+        "title": "Blood Donation App",
+        "category": "Mobile App",
+        "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800",
+        "description": "React Native app to connect donors and recipients with real-time updates, authentication, and notifications.",
+        "tech": ["React Native", "Firebase"],
+        "liveUrl": "#",
+        "sourceUrl": "https://github.com/your-username/blood-donation-app"
+      },
+      {
+        "id": 3,
+        "title": "MobiGarage - Two Wheeler Service Platform",
+        "category": "Full Stack",
+        "image": "https://images.unsplash.com/photo-1530041686258-94e4a83b8ed1?auto=format&fit=crop&q=80&w=800",
+        "description": "Platform for booking two-wheeler services online, with separate flows for garages and customers.",
+        "tech": ["Django", "Next.js", "MySQL", "Tailwind CSS"],
+        "liveUrl": "#",
+        "sourceUrl": "https://github.com/your-username/mobigarage"
+      },
+      {
+        "id": 4,
+        "title": "Portfolio Website",
+        "category": "Frontend",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800",
+        "description": "Responsive developer portfolio built with React, Vite, and Tailwind CSS, featuring dynamic sections driven by JSON.",
+        "tech": ["React", "Vite", "Tailwind CSS"],
+        "liveUrl": "#",
+        "sourceUrl": "https://github.com/your-username/portfolio"
+      },
+      {
+        "id": 5,
+        "title": "Django REST API Boilerplate",
+        "category": "Backend",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800",
+        "description": "Reusable Django REST API boilerplate with JWT auth, role-based access, and MySQL integration.",
+        "tech": ["Django", "DRF", "MySQL"],
+        "liveUrl": "#",
+        "sourceUrl": "https://github.com/your-username/django-rest-boilerplate"
+      }
+    ],
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Building an AI-Based Lost & Found System with Django & React Native",
+        "description": "A walkthrough of how I built LostSync using Django, React Native, and image similarity models to match lost and found items with notifications.",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "title": "Getting Started with Django REST Framework for Beginners",
+        "description": "A simple guide to building clean REST APIs in Django, covering serializers, viewsets, authentication, and basic best practices.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "title": "React Native + Firebase: Building Real-Time Mobile Apps",
+        "description": "How I used React Native and Firebase for authentication, real-time updates, and push-like behaviour in mobile projects.",
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      },
+      {
+        "id": 4,
+        "title": "My Stack for a Modern Developer Portfolio (Vite, React, Tailwind)",
+        "description": "Why I chose Vite, React, and Tailwind CSS to build a fast and responsive portfolio with dynamic content driven by JSON.",
+        "image": "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=800&q=80",
+        "link": "#"
+      }
+    ],
+    
+
+    "footer": {
+      "copyrightName": "Mohammad Farhan Taili",
+      "tagline": "Built with React & Tailwind CSS",
+      "socialLinks": [
+        {
+          "iconClass": "fa-brands fa-linkedin-in",
+          "url": "https://linkedin.com/in/your-profile"
+        },
+        {
+          "iconClass": "fa-brands fa-github",
+          "url": "https://github.com/your-username"
+        }
+      ]
+    }
+  }
+}
