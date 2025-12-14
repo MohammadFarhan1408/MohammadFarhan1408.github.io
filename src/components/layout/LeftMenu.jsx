@@ -1,5 +1,6 @@
 // src/components/layout/LeftMenu.jsx
 import React from 'react';
+import Hero from '../../assets/hero.png';
 
 // --- Reusable Sub-components ---
 
@@ -50,7 +51,7 @@ const LeftMenu = ({ profile, loading }) => {
   const {
     fullName = 'Rayan Adlardard',
     role = 'Font-End Developer',
-    avatar = 'https://i.pravatar.cc/150?img=12',
+    avatar = Hero,
     socialLinks = [
       { iconClass: 'fa-brands fa-facebook-f', url: '#' },
       { iconClass: 'fa-brands fa-instagram', url: '#' },
@@ -174,3 +175,4 @@ const LeftMenu = ({ profile, loading }) => {
 };
 
 export default LeftMenu;
+
