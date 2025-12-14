@@ -9,7 +9,7 @@ const HeroSection = ({ profile }) => {
     fullName = 'Your Name',
     role = 'Your Role',
     about = 'Short description about you goes here. Add this in your profile JSON under "about".',
-    avatar = 'https://i.pravatar.cc/300?img=12',
+    avatar = 'https://avatars.githubusercontent.com/u/122987956?v=4',
     cvUrl = '/resume.pdf'
   } = profile || {};
 

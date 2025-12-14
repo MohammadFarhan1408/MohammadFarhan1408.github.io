@@ -9,12 +9,13 @@ import blogs from './blogs.js';
 import testimonials from './testimonials.js';
 import rightNavItems from './navigation.js';
 import footer from './footer.js';
+import Hero from '../assets/hero.png';
 
 const profile = {
     fullName: "Mohammad Farhan Taili",
     role: "Full Stack Developer",
     about: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Et, Volutpat Feugiat Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.",
-    avatar: "/src/assets/hero.png",
+    avatar: Hero,
     contact: {
         location: {
             country: "India",
